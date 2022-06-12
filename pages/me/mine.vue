@@ -2,9 +2,9 @@
 	<view class="content">
 		<view @click="item">操作item选项卡样式</view>
 		<view @click="CardPic">用户头像自定义组件</view>
-		<avatar 
-		:imageSrc="imageSrc" 
-		:userName="userName" 
+		<avatar
+		:imageSrc="imageSrc"
+		:userName="userName"
 		:phoneNumber="phoneNumber"
 		@onAvatarItemClick="onAvatarItemClickCallBack"></avatar>
 		<view>状态管理</view>

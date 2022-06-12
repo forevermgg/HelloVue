@@ -2,7 +2,7 @@
 	// https://uniapp.dcloud.io/collocation/App.html#applifecycle
 	export default {
 		globalData: {
-		    text: 'text'  
+		    text: 'text'
 		},
 		onLaunch: function() {
 			console.log('App Launch')

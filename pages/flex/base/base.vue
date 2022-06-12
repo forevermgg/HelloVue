@@ -7,7 +7,7 @@
 			<view>4</view>
 			<view>5</view>
 		</view>
-		
+
 		<view class="test_row-reverse">
 			<view>1</view>
 			<view>2</view>
@@ -15,7 +15,7 @@
 			<view>4</view>
 			<view>5</view>
 		</view>
-		
+
 		<view class="test_row_justify_content_center">
 			<view>1</view>
 			<view>2</view>
@@ -30,7 +30,7 @@
 			<view>4</view>
 			<view>5</view>
 		</view>
-		
+
 		<view class="test_column">
 			<view>1</view>
 			<view>2</view>
@@ -38,7 +38,7 @@
 			<view>4</view>
 			<view>5</view>
 		</view>
-		
+
 		<view class="test_column-reverse">
 			<view>1</view>
 			<view>2</view>

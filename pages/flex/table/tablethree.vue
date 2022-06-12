@@ -48,7 +48,7 @@
 	td {
 	  padding: 0.5rem;
 	}
-	
+
 	td:nth-child(1) { background: hsl(150, 50%, 50%); }
 	td:nth-child(2) { background: hsl(160, 60%, 50%); }
 	td:nth-child(3) { background: hsl(170, 70%, 50%); }

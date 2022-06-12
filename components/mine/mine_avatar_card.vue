@@ -24,7 +24,7 @@
 	            this.$emit("onAvatarItemClick",this.num); // 向父组件传递信息
 	        }
 	    }
-	}	
+	}
 </script>
 
 <style>
