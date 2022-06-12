@@ -1,6 +1,5 @@
 {
   "devDependencies": {
-    "husky": "^8.0.1",
     "lint-staged": "^13.0.1",
     "sass": "^1.52.2",
     "sass-loader": "^10.1.1"
@@ -9,20 +8,5 @@
     "@dcloudio/uni-ui": "^1.4.15",
     "git-hooks": "^1.1.10",
     "vue": "^3.2.37"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,vue}": [
-      "vue-cli-service lint",
-      "eslint --fix",
-      "git add"
-    ]
-  },
-  "scripts": {
-    "prepare": "husky install"
   }
 }
