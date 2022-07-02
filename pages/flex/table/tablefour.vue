@@ -1,39 +1,56 @@
 <template>
-	<view class="content">
-		<table id="table-example-1"><caption>Specification values: <b>Steel</b>, <b>Castings</b>,
-		   Ann. A.S.T.M. A27-16, Class B;* P max. 0.06; S max. 0.05.</caption>
-		   <thead><tr><th rowspan="2">Grade.</th>
-		     <th rowspan="2">Yield Point.</th>
-		     <th colspan="2">Ultimate tensile strength</th>
-		     <th rowspan="2">Per cent elong. 50.8&nbsp;mm or&nbsp;2&nbsp;in.</th>
-		     <th rowspan="2">Per cent reduct. area.</th>
-		    </tr><tr><th>kg/mm<sup>2</sup></th>
-		     <th>lb/in<sup>2</sup></th>
-		    </tr></thead><tbody><tr><td>Hard</td>
-		     <td>0.45 ultimate</td>
-		     <td>56.2</td>
-		     <td>80,000</td>
-		     <td>15</td>
-		     <td>20</td>
-		    </tr><tr><td>Medium</td>
-		     <td>0.45 ultimate</td>
-		     <td>49.2</td>
-		     <td>70,000</td>
-		     <td>18</td>
-		     <td>25</td>
-		    </tr><tr><td>Soft</td>
-		     <td>0.45 ultimate</td>
-		     <td>42.2</td>
-		     <td>60,000</td>
-		     <td>22</td>
-		     <td>30</td>
-		    </tr></tbody></table>
-	</view>
+  <view class="content">
+    <table id="table-example-1">
+      <caption>
+        Specification values:
+        <b>Steel</b
+        >,
+        <b>Castings</b
+        >, Ann. A.S.T.M. A27-16, Class B;* P max. 0.06; S max. 0.05.
+      </caption>
+      <thead>
+        <tr>
+          <th rowspan="2">Grade.</th>
+          <th rowspan="2">Yield Point.</th>
+          <th colspan="2">Ultimate tensile strength</th>
+          <th rowspan="2">Per cent elong. 50.8&nbsp;mm or&nbsp;2&nbsp;in.</th>
+          <th rowspan="2">Per cent reduct. area.</th>
+        </tr>
+        <tr>
+          <th>kg/mm<sup>2</sup></th>
+          <th>lb/in<sup>2</sup></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hard</td>
+          <td>0.45 ultimate</td>
+          <td>56.2</td>
+          <td>80,000</td>
+          <td>15</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Medium</td>
+          <td>0.45 ultimate</td>
+          <td>49.2</td>
+          <td>70,000</td>
+          <td>18</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Soft</td>
+          <td>0.45 ultimate</td>
+          <td>42.2</td>
+          <td>60,000</td>
+          <td>22</td>
+          <td>30</td>
+        </tr>
+      </tbody>
+    </table>
+  </view>
 </template>
 
-<script>
-</script>
+<script></script>
 
-<style>
-
-</style>
+<style></style>

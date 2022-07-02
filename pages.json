@@ -2,56 +2,80 @@
   "easycom": {
     "autoscan": true,
     "custom": {
-      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+      "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue" //匹配uView-ui
     }
   },
   "pages": [
     {
-      "path": "pages/home/home"
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "对对对",
+        "navigationStyle": "default",
+        "titleAlign": "left",
+        "app-plus": {
+          "titleAlign": "left"
+        }
+      }
     },
     {
       "path": "pages/me/mine"
     },
-	  {
-	    "path": "pages/flex/flex"
-	  },
-	  {
-	    "path": "pages/flex/base/base"
-	  },
-	  {
-	    "path": "pages/flex/table/table"
-	  },
-	  {
-	    "path": "pages/flex/table/tablenocss"
-	  },
-	  {
-	    "path": "pages/flex/table/tableone"
-	  },
-	  {
-	    "path": "pages/flex/table/tabletwo"
-	  },
-	  {
-	    "path": "pages/flex/table/tablethree"
-	  },
-	  {
-	    "path": "pages/flex/table/tablefour"
-	  },
-	  {
-	    "path": "pages/me/mineitem"
-	  }
+    {
+      "path": "pages/flex/flex",
+      "style": {
+        "navigationBarTitleText": "对对对",
+        "navigationStyle": "default",
+        "titleAlign": "left",
+        "app-plus": {
+          "titleAlign": "left"
+        }
+      }
+    },
+    {
+      "path": "pages/flex/base/base"
+    },
+    {
+      "path": "pages/flex/table/table"
+    },
+    {
+      "path": "pages/flex/table/tablenocss"
+    },
+    {
+      "path": "pages/flex/table/tableone"
+    },
+    {
+      "path": "pages/flex/table/tabletwo"
+    },
+    {
+      "path": "pages/flex/table/tablethree"
+    },
+    {
+      "path": "pages/flex/table/tablefour"
+    },
+    {
+      "path": "pages/me/mineitem"
+    },
+    {
+      "path": "pages/scss/inlinetable"
+    },
+    {
+      "path": "pages/image/image"
+    }
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8",
-	"renderingMode": "seperated", // 仅微信小程序，webrtc 无法正常时尝试强制关闭同层渲染
-	"pageOrientation": "portrait", //横屏配置，全局屏幕旋转设置(仅 APP/微信/QQ小程序)，支持 auto / portrait / landscape
-	"rpxCalcMaxDeviceWidth": 960,
-	"rpxCalcBaseDeviceWidth": 375,
-	"rpxCalcIncludeWidth": 750
+    "renderingMode": "seperated", // 仅微信小程序，webrtc 无法正常时尝试强制关闭同层渲染
+    "pageOrientation": "portrait", //横屏配置，全局屏幕旋转设置(仅 APP/微信/QQ小程序)，支持 auto / portrait / landscape
+    "rpxCalcMaxDeviceWidth": 960,
+    "rpxCalcBaseDeviceWidth": 375,
+    "rpxCalcIncludeWidth": 750
   },
   "tabBar": {
+    "custom": true,
     "color": "#7A7E83",
     "selectedColor": "#3cc51f",
     "borderStyle": "black",
@@ -83,17 +107,28 @@
           "selectedColor": "#0000ff"
         }
       },
-	  {
-	    "pagePath": "pages/flex/flex",
-	    "text": "Flex",
-	    "iconfont": {
-	      "text": "\ue102",
-	      "selectedText": "\ue103",
-	      "fontSize": "17px",
-	      "color": "#000000",
-	      "selectedColor": "#0000ff"
-	    }
-	  }
+      {
+        "pagePath": "pages/flex/flex",
+        "text": "Flex",
+        "iconfont": {
+          "text": "\ue102",
+          "selectedText": "\ue103",
+          "fontSize": "17px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        }
+      },
+      {
+        "pagePath": "pages/image/image",
+        "text": "图片",
+        "iconfont": {
+          "text": "\ue102",
+          "selectedText": "\ue103",
+          "fontSize": "17px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        }
+      }
     ]
   }
 }
